@@ -83,21 +83,20 @@ https://github.com/Te-k/cobaltstrike/blob/master/rules.yar
 <h2>Sigma rules</br></h2>
 Cobalt Strike sigma rules</br>
 Sigma is a generic and open signature format that allows you to describe relevant log events in a straightforward manner.</br>
-[https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_creation/win_meterpreter_or_cobaltstrike_getsystem_service_start.yml](https://github.com/SigmaHQ/sigma/blob/master/rules/windows/builtin/security/win_security_meterpreter_or_cobaltstrike_getsystem_service_install.yml)</br>
-[https://github.com/SigmaHQ/sigma/blob/master/rules/windows/create_remote_thread/sysmon_cobaltstrike_process_injection.yml](https://github.com/SigmaHQ/sigma/blob/master/rules/windows/create_remote_thread/create_remote_thread_win_hktl_cobaltstrike.yml)</br>
-[https://github.com/SigmaHQ/sigma/blob/master/rules/windows/pipe_created/sysmon_mal_cobaltstrike.yml](https://github.com/SigmaHQ/sigma/blob/master/rules/windows/pipe_created/pipe_created_hktl_cobaltstrike.yml)</br>
-[https://github.com/SigmaHQ/sigma/blob/master/rules/windows/pipe_created/sysmon_mal_cobaltstrike_re.yml](https://github.com/SigmaHQ/sigma/blob/master/rules/windows/pipe_created/pipe_created_hktl_cobaltstrike_re.yml)</br>
-[https://github.com/SigmaHQ/sigma/blob/master/rules/windows/pipe_created/sysmon_susp_cobaltstrike_pipe_patterns.yml](https://github.com/SigmaHQ/sigma/blob/master/rules/windows/pipe_created/pipe_created_hktl_cobaltstrike_susp_pipe_patterns.yml)</br>
-[https://github.com/SigmaHQ/sigma/blob/master/rules/windows/builtin/win_cobaltstrike_service_installs.yml](https://github.com/SigmaHQ/sigma/blob/master/rules/windows/builtin/security/win_security_cobaltstrike_service_installs.yml)</br>
-// https://github.com/SigmaHQ/sigma/blob/master/rules/windows/registry_event/sysmon_cobaltstrike_service_installs.yml</br>
-[https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_access/sysmon_cobaltstrike_bof_injection_pattern.yml](https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_access/proc_access_win_hktl_cobaltstrike_bof_injection_pattern.yml)</br>
-[https://github.com/SigmaHQ/sigma/blob/master/rules/network/net_mal_dns_cobaltstrike.yml](https://github.com/SigmaHQ/sigma/blob/master/rules/network/dns/net_dns_mal_cobaltstrike.yml)</br>
-[https://github.com/SigmaHQ/sigma/blob/master/rules/network/zeek/zeek_default_cobalt_strike_certificate.yml](https://github.com/SigmaHQ/sigma/blob/master/rules/network/zeek/zeek_default_cobalt_strike_certificate.yml)</br>
-[https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_access/sysmon_direct_syscall_ntopenprocess.yml](https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_access/proc_access_win_susp_direct_ntopenprocess_call.yml)</br>
-[https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_creation/process_creation_cobaltstrike_load_by_rundll32.yml](https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_creation/proc_creation_win_hktl_cobaltstrike_load_by_rundll32.yml)</br>
-[https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_creation/win_susp_rundll32_no_params.yml](https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_creation/proc_creation_win_rundll32_no_params.yml)</br>
-[https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_creation/win_cobaltstrike_process_patterns.yml](https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_creation/proc_creation_win_hktl_cobaltstrike_process_patterns.yml)</br>
-[https://github.com/SigmaHQ/sigma/blob/master/rules/windows/file_event/sysmon_susp_clr_logs.yml](https://github.com/SigmaHQ/sigma/blob/master/deprecated/windows/file_event_win_susp_clr_logs.yml)</br>
+https://github.com/SigmaHQ/sigma/blob/master/rules/windows/create_remote_thread/create_remote_thread_win_hktl_cobaltstrike.yml<br>
+https://github.com/SigmaHQ/sigma/blob/master/rules/windows/pipe_created/pipe_created_hktl_cobaltstrike.yml<br>
+https://github.com/SigmaHQ/sigma/blob/master/rules/windows/pipe_created/pipe_created_hktl_cobaltstrike_re.yml<br>
+https://github.com/SigmaHQ/sigma/blob/master/rules/windows/pipe_created/pipe_created_hktl_cobaltstrike_susp_pipe_patterns.yml<br>
+https://github.com/SigmaHQ/sigma/blob/master/rules/windows/builtin/security/win_security_cobaltstrike_service_installs.yml<br>
+https://github.com/SigmaHQ/sigma/blob/master/rules/windows/builtin/security/win_security_cobaltstrike_service_installs.yml<br>
+https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_access/proc_access_win_hktl_cobaltstrike_bof_injection_pattern.yml<br>
+https://github.com/SigmaHQ/sigma/blob/master/rules/network/dns/net_dns_mal_cobaltstrike.yml<br>
+https://github.com/SigmaHQ/sigma/blob/master/rules/network/zeek/zeek_default_cobalt_strike_certificate.yml<br>
+https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_access/proc_access_win_susp_direct_ntopenprocess_call.yml<br>
+https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_creation/proc_creation_win_hktl_cobaltstrike_load_by_rundll32.yml<br>
+https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_creation/proc_creation_win_rundll32_no_params.yml<br>
+https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_creation/proc_creation_win_hktl_cobaltstrike_process_patterns.yml<br>
+https://github.com/SigmaHQ/sigma/blob/master/deprecated/windows/file_event_win_susp_clr_logs.yml<br>
 (check in the future for updates or new rules)
 
 <h2>Indicators of compromise</br></h2>
